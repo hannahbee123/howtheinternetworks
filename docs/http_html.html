@@ -20,8 +20,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
@@ -45,7 +45,33 @@
         </ul>
     </div>
 </nav>
-<h1>Home</h1>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Topics</li>
+        <li class="breadcrumb-item active" aria-current="page">HTTP and HTML</li>
+    </ol>
+
+    <div class="row">
+        <div class="col-8">
+            <h1>HTTP and HTML</h1>
+        </div>
+        <div class="col-4">
+            <div class="card " style="width: 18rem;">
+                <div class="card-header">
+                    Topics
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href ="icann.html">ICANN</a></li>
+                    <li class="list-group-item"><a href="w3c.html">W3C</a></li>
+                    <li class="list-group-item"><a href="timbl.html">Tim Berners-Lee</a></li>
+                    <li class="list-group-item"><a href ="dns_ip.html">DNS and IP Addresses</a></li>
+                    <li class="list-group-item">HTTP and HTML</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
