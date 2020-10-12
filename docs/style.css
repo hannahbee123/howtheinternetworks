@@ -9,4 +9,9 @@ h1 {
     padding: 18px;
     margin-top: 20px;
     margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.btn {
+    margin-left: 20px;
 }
