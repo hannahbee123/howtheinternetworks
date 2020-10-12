@@ -1,0 +1,12 @@
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 18px;
+}
+
+#content {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
